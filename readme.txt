@@ -12,7 +12,7 @@ This plugin activate add to cart through ajax on varible product.
 
 == Description ==
 
-This plugin activate add to cart through ajax on varible product. By default woocommerce is not having this features. Plugin is uding own jquery which is slightly differ from woocommerce default add to cart jquery for simple product.
+This plugin activate add to cart through ajax on varible product. By default woocommerce is not having this feature. Plugin is adding own jquery which is differ from woocommerce default add to cart jquery for simple product.
 
 == Installation ==
 
@@ -23,15 +23,15 @@ This plugin activate add to cart through ajax on varible product. By default woo
 
 = How this plugin work? =
 
-This plugin add new javascript file in your footer which get the required data from the page and sent it to php ajax function.
+This plugin add new javascript file in your theme footer, which gets required data from the page when you click on add to cart button on varible product page and sent it to php ajax function of plugin.
 
 = Is this plugin work with my theme? =
 
-Yes this plugin will work with most of all themes. Just make sure for variable product template, you didn't removed any css classes from add to cart button.
+Yes this plugin will work with most themes. Just make sure you didn't removed any css classes from add to cart button from variable product template.
 
-= Is this plugin add functionality on single page only or archive page or category page =
+= Is this plugin only add functionality on single page or archive page or category page =
 
-This plugin by default activate everywhere. So like where ever on site, there is a variable product, you can add them into cart through ajax.
+This plugin activate ajax functionality everywhere. So like is it a single page, category page, archive page or even sidebar with shortcode, where ever it gets varible product, it will work with ajax functionality.
 
 == Screenshots ==
 
@@ -46,4 +46,4 @@ This plugin by default activate everywhere. So like where ever on site, there is
 == Upgrade Notice ==
 
 = 1.0 =
-As Woocommerce not haveing this functionality by dafault, its greate plugin to use for same.
+As Woocommerce not having add to cart with ajax for variable product, plugin adds this small functionality. So Users cannot dig into code for same.
