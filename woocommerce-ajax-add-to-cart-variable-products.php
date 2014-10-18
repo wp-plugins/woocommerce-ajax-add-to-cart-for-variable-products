@@ -4,7 +4,7 @@ Plugin Name: Woocommerce Add to cart Ajax for variable products
 Plugin URI: http://www.rcreators.com/woocommerce-ajax-add-to-cart-variable-products
 Description: Ajax based add to cart for varialbe products in woocommerce.
 Author: Rishi Mehta - rcreators.com
-Version: 1.0.1
+Version: 1.0.2
 Author URI: http://rcreators.com
 */
 
