@@ -4,7 +4,7 @@ Donate link: NA
 Tags: Woocommerce, Ajax, Variable Products, Add to cart
 Requires at least: 3.2
 Tested up to: 4.0
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -38,6 +38,9 @@ This plugin activate ajax functionality everywhere. So like is it a single page,
 1. screenshot-1.jpg
 
 == Changelog ==
+
+= 1.0.3 =
+* Updated the Function in which Cart Fragments was not updating in Chrome. Will work on all browser now without issue.
 
 = 1.0.2 =
 * Updated function as ajax was not working for guest users. / - Thanks - sharpe89 to pointing issue.
