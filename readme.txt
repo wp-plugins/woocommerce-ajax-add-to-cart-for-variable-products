@@ -4,7 +4,7 @@ Donate link: NA
 Tags: Woocommerce, Ajax, Variable Products, Add to cart
 Requires at least: 3.2
 Tested up to: 4.0
-Stable tag: 1.0.3
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -38,6 +38,10 @@ This plugin activate ajax functionality everywhere. So like is it a single page,
 1. screenshot-1.jpg
 
 == Changelog ==
+
+= 1.1 =
+* Functions updated to work with minicart widget.
+* Now Default cart widget of woocommerce will also update same time with adding to cart.
 
 = 1.0.3 =
 * Updated the Function in which Cart Fragments was not updating in Chrome. Will work on all browser now without issue.
