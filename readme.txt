@@ -39,6 +39,9 @@ This plugin activate ajax functionality everywhere. So like is it a single page,
 
 == Changelog ==
 
+= 1.1.1 =
+* Added Ob_start() starting of hooks so it works perfect on chrome and Firefox. / Thanks - Michal for mail on it.
+
 = 1.1 =
 * Functions updated to work with minicart widget.
 * Now Default cart widget of woocommerce will also update same time with adding to cart.
