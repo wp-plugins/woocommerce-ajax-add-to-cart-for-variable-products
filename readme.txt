@@ -4,7 +4,7 @@ Donate link: NA
 Tags: Woocommerce, Ajax, Variable Products, Add to cart
 Requires at least: 3.2
 Tested up to: 4.0
-Stable tag: 1.2
+Stable tag: 1.2.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -38,6 +38,9 @@ This plugin activate ajax functionality everywhere. So like is it a single page,
 1. screenshot-1.jpg
 
 == Changelog ==
+
+= 1.2.1 =
+* Minor fix for setting tab issue
 
 = 1.2 =
 * Added Selection in woocommerce product tab wc ajax variable product setting for variation selection need on category / shop page or not.
