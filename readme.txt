@@ -4,7 +4,7 @@ Donate link: NA
 Tags: Woocommerce, Ajax, Variable Products, Add to cart
 Requires at least: 3.2
 Tested up to: 4.1.1
-Stable tag: 1.2.2
+Stable tag: 1.2.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -38,6 +38,9 @@ This plugin activate ajax functionality everywhere. So like is it a single page,
 1. screenshot-1.jpg
 
 == Changelog ==
+
+= 1.2.3 =
+* Updated Jquery, so it works properly with IE10 / IE11
 
 = 1.2.2 =
 * jquery updated. so if no variation selected, user will get error to select variable.
