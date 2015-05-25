@@ -3,8 +3,8 @@ Contributors: Rcreators
 Donate link: NA
 Tags: Woocommerce, Ajax, Variable Products, Add to cart
 Requires at least: 3.2
-Tested up to: 4.1.1
-Stable tag: 1.2.3
+Tested up to: 4.2.2
+Stable tag: 1.2.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -38,6 +38,12 @@ This plugin activate ajax functionality everywhere. So like is it a single page,
 1. screenshot-1.jpg
 
 == Changelog ==
+
+= 1.2.4 =
+* Updated Jquery issue reported by user. : david127, nonverbla
+* Js Improvement suggested by user, now it will work with multiple tye of variations. : Igor Jerosimic
+* Removed AddtocartAjax localize script which was not in use.
+* Supports Latest Woocommerce and wordpress.
 
 = 1.2.3 =
 * Updated Jquery, so it works properly with IE10 / IE11
