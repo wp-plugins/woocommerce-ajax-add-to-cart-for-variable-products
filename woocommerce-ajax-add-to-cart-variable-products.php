@@ -53,7 +53,9 @@ if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', g
 		$variation_id = $_POST['variation_id'];
 		$variation  = $_POST['variation'];
 		$passed_validation = apply_filters( 'woocommerce_add_to_cart_validation', true, $product_id, $quantity );
-	
+		// Adding Ajax Class to fix broken server error in ajax.
+		$WC_AJAX = new WC_AJAX;
+
 		if ( $passed_validation && WC()->cart->add_to_cart( $product_id, $quantity, $variation_id, $variation  ) ) {
 			do_action( 'woocommerce_ajax_added_to_cart', $product_id );
 			if ( get_option( 'woocommerce_cart_redirect_after_add' ) == 'yes' ) {
@@ -61,10 +63,11 @@ if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', g
 		}
 	
 			// Return fragments
-		$this->get_refreshed_fragments();
+			$WC_AJAX->get_refreshed_fragments();
 		} else {
-			$this->json_headers();
-	
+
+			$WC_AJAX->json_headers();
+
 			// If there was an error adding to the cart, redirect to the product page to show any errors
 		$data = array(
 			'error' => true,
