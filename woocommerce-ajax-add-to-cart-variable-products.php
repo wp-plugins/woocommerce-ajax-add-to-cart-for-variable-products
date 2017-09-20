@@ -65,9 +65,7 @@ if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', g
 			// Return fragments
 			$WC_AJAX->get_refreshed_fragments();
 		} else {
-
-			$WC_AJAX->json_headers();
-
+			// Remove un needed JSON function.
 			// If there was an error adding to the cart, redirect to the product page to show any errors
 		$data = array(
 			'error' => true,
