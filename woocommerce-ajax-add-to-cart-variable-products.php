@@ -23,11 +23,13 @@ if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', g
 		function woocommerce_template_loop_add_to_cart() {
 			 global $product;
 	
-			 if ($product->product_type == "variable" ) {
+			 //The product_type property is deprecated. Use get_type() to get internal type.
+			 if ($product->get_type() == "variable" ) {
 				 woocommerce_variable_add_to_cart();
 			 }
 			 else {
-				 woocommerce_get_template( 'loop/add-to-cart.php' );
+				 //Deprecated : woocommerce_get_template is obsolete since version 3.0! Use wc_get_template instead.
+				 wc_get_template( 'loop/add-to-cart.php' );
 			 }
 		 }
 	}
